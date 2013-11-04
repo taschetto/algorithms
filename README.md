@@ -1,4 +1,4 @@
-algorithms
+Algorithms
 ==========
 
-Sample algorithms in C++ and Ruby.
+Sample general purpose algorithms in C++.
