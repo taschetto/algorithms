@@ -2,12 +2,13 @@
 *   Quicksort Algorithm (in-place version)
 *
 *   Copyright (c) 2013 Guilherme Taschetto
+*   All rights reserved.
 *
 *   http://www.github.com/taschetto
 *   http://www.github.com/taschetto/algorithms
 *
 *   This file is subject to the terms and conditions defined in
-*   file 'LICENSE', which is part of this source code package.
+*   file 'LICENSE', located in the top level of this distribution.
 *
 */
 
