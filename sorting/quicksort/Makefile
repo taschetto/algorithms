@@ -1,4 +1,5 @@
 compiler = g++
+incpath  = ../../include/
 cflags   = -std=c++0x -Wall
 ldflags  = -std=c++0x -c -Wall
 sources	 = main.cpp
@@ -9,10 +10,10 @@ target	 = $(folder)
 all: $(sources) $(target)
 	
 $(target): $(objects) 
-	$(compiler) $(objects) -o $@
+	$(compiler) $(objects) -o $@ -I$(incpath)
 
 .cpp.o:
-	$(compiler) $(ldflags) $<
+	$(compiler) $(ldflags) $< -I$(incpath)
 
 clean:
 	rm -fr *.o $(target)

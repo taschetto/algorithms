@@ -27,7 +27,10 @@ void swap(int* i, int* j)
 
 void quicksort(int values[], int left, int right)
 {
+    // There are several heuristics for choosing the pivot.
+    // In this case we get the first element.
     int pivot = values[left];
+
     int i = left, j = right;
 
     while (i <= j)
