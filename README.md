@@ -1,4 +1,4 @@
 Algorithms
 ==========
 
-Sample general purpose algorithms in C++.
+Sample general purpose algorithms implemented in C++.
